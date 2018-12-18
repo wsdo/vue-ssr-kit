@@ -51,3 +51,6 @@ const proxyTable = {
   }
 }
 ```
+
+界面：
+https://cdn.nlark.com/yuque/0/2018/png/188623/1545145800681-c869add7-fa75-47aa-a955-6bbcf7c7db67.png
