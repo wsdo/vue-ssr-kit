@@ -1,0 +1,74 @@
+/* Comments
+---------------------------------- */
+#comments {
+  margin-top: 60px;
+}
+
+.comments h2.title {
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.comments h2.title:after {
+  height: 1px;
+  background: #d1d1d1;
+  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.12) 35%, rgba(0, 0, 0, 0.05) 70%, transparent 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0, 0, 0, 0.18)), color-stop(35%, rgba(0, 0, 0, 0.12)), color-stop(70%, rgba(0, 0, 0, 0.05)), color-stop(100%, transparent));
+  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.12) 35%, rgba(0, 0, 0, 0.05) 70%, transparent 100%);
+  background: -o-linear-gradient(left, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.12) 35%, rgba(0, 0, 0, 0.05) 70%, transparent 100%);
+  background: -ms-linear-gradient(left, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.12) 35%, rgba(0, 0, 0, 0.05) 70%, transparent 100%);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.12) 35%, rgba(0, 0, 0, 0.05) 70%, transparent 100%);
+  position: absolute;
+  bottom: -1px;
+  left: 0px;
+  content: "";
+  width: 100%;
+}
+
+.comment {
+  font-size: 14px;
+}
+
+.comment .comment {
+  margin-left: 75px;
+}
+
+.comment h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.comment p {
+  margin-bottom: 10px;
+}
+
+.comment .btn-sm-link {
+  padding: 0;
+}
+
+.comment-avatar {
+  width: 50px;
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+.comment-content {
+  border-bottom: 1px solid #f1f1f1;
+  margin-bottom: 40px;
+  clear: both;
+}
+
+.comment-meta {
+  margin-bottom: 15px;
+  color: #aaa;
+  font-size: 12px;
+}
+
+.comment-meta a {
+  color: #aaa;
+}
+
+.comment-meta a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,89 @@
+/* 4 Pages
+----------------------------------------------------------------------------- */
+/* Blog pages
+---------------------------------- */
+.blogpost {
+  // margin: 0 0 70px;
+}
+
+.blogpost header {
+  padding: 20px 10px 20px;
+}
+
+.blogpost header h2 {
+  text-transform: none;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.blogpost .post-info {
+  font-size: 14px;
+  color: #aaa;
+  font-weight: 400;
+}
+
+.blogpost .post-info > span {
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.blogpost .post-info a {
+  color: #aaa;
+}
+
+.blogpost .blogpost-content {
+  padding: 0 10px 10px;
+}
+
+.blogpost .row .blogpost-content {
+  padding-bottom: 0;
+}
+
+.blogpost footer {
+  font-size: 12px;
+  padding: 10px;
+  color: #aaa;
+  border-top: 1px solid #eaeaea;
+}
+
+.blogpost .row + footer {
+  padding: 10px 0;
+}
+
+.blogpost.full {
+  margin-bottom: 30px;
+}
+
+.blogpost.full header {
+  padding: 0 0 15px 0;
+}
+
+.blogpost.full .blogpost-content {
+  padding: 0 0 5px;
+}
+
+.blogpost.full footer {
+  padding: 10px 0;
+}
+
+.blogpost.light-gray-bg header,
+.blogpost.light-gray-bg .blogpost-content,
+.blogpost.light-gray-bg footer {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.blogpost.light-gray-bg footer {
+  padding-bottom: 20px;
+}
+
+/* Medium devices (desktops, tablets, 992px and up) */
+@media (min-width: 992px) {
+  .blogpost .row header {
+    padding-top: 0;
+  }
+
+  .blogpost .row + footer {
+    margin-top: 15px;
+  }
+}
